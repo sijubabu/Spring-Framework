@@ -11,8 +11,7 @@ import com.hmkcode.spring.config.JavaConfig;
 
 public class App 
 {
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ) {
     	
         
     	ApplicationContext ctxXML = new ClassPathXmlApplicationContext("config/XMLConfig.xml");
